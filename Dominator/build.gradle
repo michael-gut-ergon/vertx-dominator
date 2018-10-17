@@ -1,0 +1,131 @@
+plugins {
+	id 'java'
+	id 'application'
+	id 'com.github.johnrengelman.shadow' version '1.2.3'
+	id "org.flywaydb.flyway" version "4.0.3"
+	id "nu.studer.jooq" version "2.0.2"
+}
+
+apply plugin: 'eclipse'
+apply plugin: 'org.flywaydb.flyway'
+
+description = 'OrderManager'
+group = 'ch.ergon.mg.om'
+version = '1.0-SNAPSHOT'
+
+repositories {
+	jcenter()
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+project.ext {
+	configPath = "$rootProject.projectDir/src/main/resources/"
+	jooqGeneratedDir = 'src/main/generated'
+    postgresqlVersion = '9.1-901.jdbc4'
+    vertxVersion = '3.3.3'
+}
+
+dependencies {
+	compile "io.vertx:vertx-core:$vertxVersion"
+	compile "io.vertx:vertx-web:$vertxVersion"
+	compile "io.vertx:vertx-hazelcast:$vertxVersion"
+	compile "io.vertx:vertx-dropwizard-metrics:$vertxVersion"
+	compile "org.yaml:snakeyaml:1.17" 
+	compile "org.flywaydb:flyway-core:4.0.3"
+	compile "postgresql:postgresql:$postgresqlVersion" 
+	compile "org.jooq:jooq" 
+	jooqRuntime("postgresql:postgresql:$postgresqlVersion")
+	
+	testCompile 'junit:junit:4.12'
+}
+
+flyway {
+    url = 'jdbc:postgresql://localhost:5432/ordermanager'
+    user = 'sab'
+    password = 'batical'
+    schemas = ['sab']
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs += [jooqGeneratedDir]
+        }
+    }
+}
+
+clean.doLast {
+   project.file(jooqGeneratedDir).deleteDir()
+}
+
+jooq {
+  version = '3.8.5'
+  edition = 'OSS'
+  om(sourceSets.main) {
+       jdbc {
+           driver = 'org.postgresql.Driver'
+           url = 'jdbc:postgresql://localhost:5432/ordermanager'
+           user = 'sab'
+           password = 'batical'
+           schema = 'sab'
+       }
+       generator {
+           name = 'org.jooq.util.DefaultGenerator'
+           strategy {
+               name = 'org.jooq.util.DefaultGeneratorStrategy'
+           }
+           database {
+               name = 'org.jooq.util.postgres.PostgresDatabase'
+               inputSchema = 'sab'
+           }
+           generate {
+               relations = true
+               deprecated = false
+               records = true
+               pojos = true
+               fluentSetters = true
+           }
+           target {
+               packageName = 'ch.ergon.mg.om.jooq'
+               directory = jooqGeneratedDir
+           }
+       }
+   }
+}
+generateOmJooqSchemaSource.onlyIf { project.hasProperty('generateJooq') }
+
+mainClassName = 'ch.ergon.mg.om.OrderManagerApp'
+
+run {
+    args 'server', configPath + 'app_config.yml'
+}
+
+shadowJar {
+	classifier = 'fat'
+	mergeServiceFiles {
+		include 'META-INF/services/io.vertx.core.spi.VerticleFactory'
+	}
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '2.8'
+}
+
+task copyTarToRelease(type: Copy) {
+    from("$projectDir/build/distributions") {
+        include '**/*.tar'
+    }
+    into "$projectDir/dockerCloud"
+}
+
+distTar.finalizedBy(copyTarToRelease)
+
+distributions {
+    main {
+        contents {
+            from { 'webroot' }
+        }
+    }
+}

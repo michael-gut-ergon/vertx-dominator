@@ -1,0 +1,13 @@
+appName: OrderManager
+serviceDomain: OM
+serverPort: 19140
+apiVersion: V1
+webRoot: webroot
+
+database:
+  driverClass: org.postgresql.Driver
+  dialect: POSTGRES
+  username: sab
+  password: batical
+  url: jdbc:postgresql://localhost:5432/ordermanager
+  schema: sab
