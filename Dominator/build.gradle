@@ -9,9 +9,9 @@ plugins {
 apply plugin: 'eclipse'
 apply plugin: 'org.flywaydb.flyway'
 
-description = 'OrderManager'
-group = 'ch.ergon.mg.om'
-version = '1.0-SNAPSHOT'
+description = 'Dominator'
+group = 'ch.ergon.storm.dominator'
+version = '1.0.0'
 
 repositories {
 	jcenter()
@@ -42,10 +42,10 @@ dependencies {
 }
 
 flyway {
-    url = 'jdbc:postgresql://localhost:5432/ordermanager'
-    user = 'sab'
-    password = 'batical'
-    schemas = ['sab']
+    url = 'jdbc:postgresql://localhost:15000/dominator'
+    user = 'dominator'
+    password = 'w0rld'
+    schemas = ['dominator']
 }
 
 sourceSets {
@@ -66,10 +66,10 @@ jooq {
   om(sourceSets.main) {
        jdbc {
            driver = 'org.postgresql.Driver'
-           url = 'jdbc:postgresql://localhost:5432/ordermanager'
-           user = 'sab'
-           password = 'batical'
-           schema = 'sab'
+           url = 'jdbc:postgresql://localhost:15000/dominator'
+           user = 'dominator'
+           password = 'w0rld'
+           schema = 'dominator'
        }
        generator {
            name = 'org.jooq.util.DefaultGenerator'
@@ -78,7 +78,7 @@ jooq {
            }
            database {
                name = 'org.jooq.util.postgres.PostgresDatabase'
-               inputSchema = 'sab'
+               inputSchema = 'dominator'
            }
            generate {
                relations = true
@@ -88,7 +88,7 @@ jooq {
                fluentSetters = true
            }
            target {
-               packageName = 'ch.ergon.mg.om.jooq'
+               packageName = 'ch.ergon.storm.dominator.jooq'
                directory = jooqGeneratedDir
            }
        }
@@ -96,7 +96,7 @@ jooq {
 }
 generateOmJooqSchemaSource.onlyIf { project.hasProperty('generateJooq') }
 
-mainClassName = 'ch.ergon.mg.om.OrderManagerApp'
+mainClassName = 'ch.ergon.storm.dominator.DominatorApp'
 
 run {
     args 'server', configPath + 'app_config.yml'
