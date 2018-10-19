@@ -1,13 +1,13 @@
-appName: OrderManager
-serviceDomain: OM
-serverPort: 19140
+appName: Dominator
+serviceDomain: DM
+serverPort: 15000
 apiVersion: V1
 webRoot: webroot
 
 database:
   driverClass: org.postgresql.Driver
   dialect: POSTGRES
-  username: sab
-  password: batical
-  url: jdbc:postgresql://localhost:5432/ordermanager
-  schema: sab
+  username: dominator
+  password: w0rld
+  url: jdbc:postgresql://localhost:5432/dominator
+  schema: dominator
