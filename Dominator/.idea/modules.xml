@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Dominator.iml" filepath="$PROJECT_DIR$/Dominator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dominator.iml" filepath="$PROJECT_DIR$/.idea/modules/Dominator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dominator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Dominator_main.iml" group="Dominator" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dominator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Dominator_test.iml" group="Dominator" />
     </modules>

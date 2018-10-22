@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-hazelcast:3.5.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-hazelcast/3.5.4/76a5c2deee8b5162aafe48ec20de98b3c55feecb/vertx-hazelcast-3.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-hazelcast/3.5.4/b195add82bb30af56738c68dd511c7bc45dfb3fc/vertx-hazelcast-3.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

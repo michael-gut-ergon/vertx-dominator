@@ -24,7 +24,7 @@ project.ext {
 	configPath = "$rootProject.projectDir/src/main/resources/"
 	jooqGeneratedDir = 'src/main/generated'
     postgresqlVersion = '9.1-901.jdbc4'
-    vertxVersion = '3.3.3'
+    vertxVersion = '3.5.4'
 }
 
 dependencies {
@@ -32,6 +32,7 @@ dependencies {
 	compile "io.vertx:vertx-web:$vertxVersion"
 	compile "io.vertx:vertx-hazelcast:$vertxVersion"
 	compile "io.vertx:vertx-dropwizard-metrics:$vertxVersion"
+    compile "io.vertx:vertx-rx-java:$vertxVersion"
 	compile "org.yaml:snakeyaml:1.17" 
 	compile "org.flywaydb:flyway-core:4.0.3"
 	compile "postgresql:postgresql:$postgresqlVersion" 
