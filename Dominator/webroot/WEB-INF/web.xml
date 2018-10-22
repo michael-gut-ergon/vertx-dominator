@@ -5,9 +5,9 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
     version="2.4">
 
-    <display-name>Offering</display-name>
+    <display-name>Dominator</display-name>
     <description>
-        Offering makes offers for customers.
+        World domination.
     </description>
 
 	<servlet-mapping>   

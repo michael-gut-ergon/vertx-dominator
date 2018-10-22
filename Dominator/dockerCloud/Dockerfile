@@ -5,12 +5,12 @@ FROM openjdk:8-jdk
 MAINTAINER Michael Gut "michael.gut@ergon.ch"
 
 # Install vert.x service
-COPY OrderManager-1.0-SNAPSHOT.tar /data/OrderManager-1.0-SNAPSHOT.tar
-RUN tar xvf /data/OrderManager-1.0-SNAPSHOT.tar
+COPY Dominator-1.0.0.tar /data/Dominator-1.0.0.tar
+RUN tar xvf /data/Dominator-1.0.0.tar
 
 # Define working directory.
-WORKDIR /OrderManager-1.0-SNAPSHOT
+WORKDIR /Dominator-1.0.0
 
 # Start service
-CMD /OrderManager-1.0-SNAPSHOT/bin/OrderManager server /OrderManager-1.0-SNAPSHOT/app_config.yml
-EXPOSE 19140
+CMD /Dominator-1.0.0/bin/Dominator server /Dominator-1.0.0/app_config.yml
+EXPOSE 15000
