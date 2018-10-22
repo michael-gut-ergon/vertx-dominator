@@ -2,111 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10558062-afaa-49fc-9400-7d71a6d93ba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Dominator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Dominator_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Dominator_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/OrderManager_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/OrderManager_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderManager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerCloud/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerCloud/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerCloud/OrderManager-1.0-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/add_factory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/components.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/elements.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/errors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/jquery-jvectormap-2.0.2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/jquery.bootstrap-touchspin.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/jquery.circliful.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/jquery.nestable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/menu_light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/pages.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/switchery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/css/variables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/ionicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/ionicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/ionicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/themify.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/themify.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/themify.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/themify.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/weathericons-regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/weathericons-regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/weathericons-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/weathericons-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/fonts/weathericons-regular-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/img/apple-touch-icon-retina_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/img/apple-touch-icon_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/img/desk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/img/favicon_1.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/detect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/fastclick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/gmaps/gmaps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/gmaps/jquery.gmaps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.blockUI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.bootstrap-touchspin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.circliful.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.counterup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.nestable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.nicescroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.scrollTo.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.slimscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.sparkline.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jquery.waypoints.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jvectormap/gdp-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jvectormap/jquery-jvectormap-2.0.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jvectormap/jquery-jvectormap-at-mill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jvectormap/jquery-jvectormap-ch-mill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jvectormap/jquery-jvectormap-de-mill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jvectormap/jquery-jvectormap-europe-mill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jvectormap/jquery-jvectormap-world-mill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/jvectormap/jvectormap.init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/modernizr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/nestable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/select2/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/skycons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/switchery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/waves.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/show_customer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/show_product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/show_service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dist/app_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dist/app_config.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -197,19 +94,21 @@
           <entry key="gradle" value="91" />
           <entry key="html" value="46" />
           <entry key="java" value="199" />
+          <entry key="project" value="9" />
           <entry key="xml" value="25" />
-          <entry key="yml" value="52" />
+          <entry key="yml" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="56" />
+          <entry key="Eclipse" value="9" />
           <entry key="Groovy" value="91" />
           <entry key="HTML" value="46" />
           <entry key="JAVA" value="199" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="25" />
-          <entry key="YAML" value="52" />
+          <entry key="YAML" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -242,23 +141,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/ergon/storm/dominator/DbUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="305" column="48" selection-start-line="305" selection-start-column="48" selection-end-line="305" selection-end-column="48" />
+            <state relative-caret-position="1">
+              <caret line="296" column="78" lean-forward="true" selection-start-line="296" selection-start-column="78" selection-end-line="296" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webroot/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -278,6 +168,14 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>OrderManager</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\Workspaces\github-michael-gut-ergon\vertx-dominator\Dominator</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -883,13 +781,6 @@
               <item name="webroot" type="462c0819:PsiDirectoryNode" />
               <item name="dominator-app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OrderManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dominator" type="462c0819:PsiDirectoryNode" />
-              <item name="webroot" type="462c0819:PsiDirectoryNode" />
-              <item name="dominator-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -901,7 +792,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540194998947" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540195340993" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Develop/nodejs/node" />
@@ -973,12 +864,12 @@
       <updated>1539882306305</updated>
       <workItem from="1539882313612" duration="2571000" />
       <workItem from="1540192934456" duration="1000" />
-      <workItem from="1540193953428" duration="993000" />
+      <workItem from="1540193953428" duration="1335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3565000" />
+    <option name="totallyTimeSpent" value="3907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="600" y="92" width="1932" height="1177" extended-state="0" />
@@ -1128,20 +1019,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ergon/storm/dominator/DbUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="305" column="48" selection-start-line="305" selection-start-column="48" selection-end-line="305" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webroot/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ergon/storm/dominator/DbUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="296" column="78" lean-forward="true" selection-start-line="296" selection-start-column="78" selection-end-line="296" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
