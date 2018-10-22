@@ -1,60 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10558062-afaa-49fc-9400-7d71a6d93ba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hazelcast_hazelcast_3_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_dropwizard_metrics_metrics_core_4_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_dns_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http2_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_socks_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_proxy_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_dns_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_auth_common_3_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_bridge_common_3_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_core_3_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_dropwizard_metrics_3_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_hazelcast_3_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_web_3_5_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hazelcast_hazelcast_3_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_dropwizard_metrics_metrics_core_3_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_dns_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http2_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_socks_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_proxy_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_dns_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_auth_common_3_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_core_3_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_dropwizard_metrics_3_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_hazelcast_3_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_web_3_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Dominator_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Dominator_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Dominator_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Dominator_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dominator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dominator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/dominator-app/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/dominator-app/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/dominator-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/dominator-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/dominator-app/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/dominator-app/protractor.conf.js" afterDir="false" />
-    </list>
+    <list default="true" id="10558062-afaa-49fc-9400-7d71a6d93ba7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -114,8 +61,8 @@
           <entry key="html" value="5" />
           <entry key="iml" value="1" />
           <entry key="java" value="5" />
-          <entry key="js" value="2" />
-          <entry key="json" value="2" />
+          <entry key="js" value="3" />
+          <entry key="json" value="3" />
           <entry key="otf" value="1" />
           <entry key="png" value="1" />
           <entry key="sql" value="1" />
@@ -134,8 +81,8 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
           <entry key="JAVA" value="5" />
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="3" />
           <entry key="SQL" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
@@ -149,7 +96,7 @@
           <entry key="gradle" value="103" />
           <entry key="html" value="46" />
           <entry key="java" value="257" />
-          <entry key="js" value="41" />
+          <entry key="js" value="49" />
           <entry key="json" value="49" />
           <entry key="project" value="9" />
           <entry key="xml" value="25" />
@@ -164,7 +111,7 @@
           <entry key="HTML" value="46" />
           <entry key="JAVA" value="257" />
           <entry key="JSON" value="49" />
-          <entry key="JavaScript" value="41" />
+          <entry key="JavaScript" value="49" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="25" />
           <entry key="YAML" value="92" />
@@ -226,11 +173,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/ergon/storm/dominator/HttpServerVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -241,17 +188,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/dominator-app/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/dominator-app/package-lock.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webroot/dominator-app/protractor.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="4105" column="12" selection-start-line="4105" selection-start-column="5" selection-end-line="4105" selection-end-column="12" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" selection-start-line="4" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -261,8 +211,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>OrderManager</find>
-      <find>https-p</find>
       <find>https</find>
+      <find>https-p</find>
     </findStrings>
     <dirStrings>
       <dir>E:\Workspaces\github-michael-gut-ergon\vertx-dominator\Dominator</dir>
@@ -806,10 +756,10 @@
         <option value="$PROJECT_DIR$/webroot/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/webroot/index.html" />
         <option value="$PROJECT_DIR$/webroot/dominator-app/karma.conf.js" />
-        <option value="$PROJECT_DIR$/webroot/dominator-app/protractor.conf.js" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/webroot/dominator-app/package.json" />
         <option value="$PROJECT_DIR$/src/main/java/ch/ergon/storm/dominator/HttpServerVerticle.java" />
+        <option value="$PROJECT_DIR$/webroot/dominator-app/protractor.conf.js" />
       </list>
     </option>
   </component>
@@ -968,12 +918,12 @@
       <workItem from="1539882313612" duration="2571000" />
       <workItem from="1540192934456" duration="1000" />
       <workItem from="1540193953428" duration="1687000" />
-      <workItem from="1540195707646" duration="1142000" />
+      <workItem from="1540195707646" duration="1513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5401000" />
+    <option name="totallyTimeSpent" value="5772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2555" y="102" width="1932" height="1177" extended-state="0" />
@@ -987,6 +937,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908913" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -1116,16 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/dominator-app/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/ergon/storm/dominator/DbUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1157,26 +1098,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ergon/storm/dominator/HttpServerVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webroot/dominator-app/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="4105" column="12" selection-start-line="4105" selection-start-column="5" selection-end-line="4105" selection-end-column="12" />
+        <state relative-caret-position="1395">
+          <caret line="4145" column="12" selection-start-line="4145" selection-start-column="12" selection-end-line="4145" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/dominator-app/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ergon/storm/dominator/HttpServerVerticle.java">
+    <entry file="file://$PROJECT_DIR$/webroot/dominator-app/protractor.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-end-line="4" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
