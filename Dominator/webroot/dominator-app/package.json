@@ -27,7 +27,9 @@
     "https-proxy-agent": "^2.2.0",
     "cryptiles": "^4.1.2",
     "adm-zip": "^0.4.11",
-    "hoek": "^4.2.1"
+    "hoek": "^4.2.1",
+    "tar": ">=4.4.2",
+    "ws": ">=1.1.1"
   },
   "devDependencies": {
     "@angular/compiler-cli": "^2.3.1",
@@ -45,6 +47,7 @@
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
     "tslint": "^4.3.0",
-    "typescript": "~2.0.3"
+    "typescript": "~2.0.3",
+    "webpack-dev-server": ">=3.1.11"
   }
 }
