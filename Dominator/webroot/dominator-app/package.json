@@ -48,6 +48,6 @@
     "ts-node": "1.2.1",
     "tslint": "^4.3.0",
     "typescript": "~2.0.3",
-    "webpack-dev-server": "^3.6.0"
+    "webpack-dev-server": "^3.7.1"
   }
 }
