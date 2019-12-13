@@ -1,12 +1,11 @@
 # README #
 
-Dominator Vert.x Framework
+Dominator Vert.x Stack
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Small MicroService projects
+* Version 0.2.0
 
 ### How do I get set up? ###
 
