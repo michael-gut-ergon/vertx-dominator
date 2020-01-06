@@ -3,6 +3,7 @@
 # compiled output
 /dist
 /tmp
+**/*.tar
 
 # dependencies
 /node_modules

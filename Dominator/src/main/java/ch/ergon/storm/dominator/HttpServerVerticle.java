@@ -24,7 +24,7 @@ public class HttpServerVerticle extends AbstractVerticle {
     	Router router = Router.router(vertx);
 
     	String restURL = "/"+ DominatorApp.CONF.getServiceDomain()+"/"+ DominatorApp.CONF.getApiVersion();
-    	LOGGER.info("HttpServerVerticle REST URL "+restURL);
+    	LOGGER.info("HttpServerVerticle REST URL " + restURL);
     	// Service
     	router.get(restURL+"/services").handler(ServiceController::getAll);
     	router.get(restURL+"/service/:id").handler(ServiceController::getService);

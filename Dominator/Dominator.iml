@@ -18,12 +18,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/webroot" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/generated" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-          <root url="file://$MODULE_DIR$/src/test/java" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -37,6 +31,6 @@
       <excludeFolder url="file://$MODULE_DIR$/webroot/dominator-app/tmp" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="JavaSE-1.8" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
   </component>
 </module>

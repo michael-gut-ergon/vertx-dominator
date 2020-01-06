@@ -27,9 +27,6 @@ exports.config = {
     });
   },
   onPrepare: function() {
-    jasmine.getEnv().addReporter(new SpecReporter({ spec: {
-        displayStacktrace: true
-      }
-    }));
+    jasmine.getEnv().addReporter(new SpecReporter());
   }
 };
