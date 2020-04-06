@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10558062-afaa-49fc-9400-7d71a6d93ba7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_vertx_vertx_rx_java_3_5_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Dominator_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Dominator_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Dominator_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Dominator_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dominator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dominator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/ergon/storm/dominator/HttpServerVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/ergon/storm/dominator/HttpServerVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/dominator-app/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/dominator-app/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/dominator-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/dominator-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/dominator-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/dominator-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/dominator-app/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/dominator-app/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/dominator-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/dominator-app/src/app/app.module.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -124,11 +108,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="59" />
-    <option name="y" value="92" />
-    <option name="width" value="1940" />
-    <option name="height" value="1220" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="243" />
+    <option name="y" value="102" />
+    <option name="width" value="1932" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,17 +265,17 @@
       <workItem from="1540193953428" duration="1687000" />
       <workItem from="1540195707646" duration="2113000" />
       <workItem from="1540210857746" duration="1150000" />
-      <workItem from="1578304898141" duration="10124000" />
+      <workItem from="1578304898141" duration="10720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17646000" />
+    <option name="totallyTimeSpent" value="18242000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1426" extended-state="7" />
+    <frame x="243" y="102" width="1932" height="1177" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11526232" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15491453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -326,7 +310,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info active="true" anchor="right" id="Gradle" order="6" visible="true" weight="0.11565978" />
+      <window_info active="true" anchor="right" id="Gradle" order="6" visible="true" weight="0.15544872" />
       <window_info anchor="right" id="Database" order="7" weight="0.22217806" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
